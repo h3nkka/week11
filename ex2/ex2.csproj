@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5DC2AFF4-59BF-4CA3-9FDC-6F7E6CBE026F}</ProjectGuid>
+    <ProjectGuid>{AF246C7B-8243-4AE5-B4C3-7D125549CA3C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ex1</RootNamespace>
-    <AssemblyName>ex1</AssemblyName>
+    <RootNamespace>ex2</RootNamespace>
+    <AssemblyName>ex2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dice.cs" />
+    <Compile Include="Cart.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5DC2AFF4-59BF-4CA3-9FDC-6F7E6CBE026F}</ProjectGuid>
+    <ProjectGuid>{F39267BE-75B8-4F62-993C-4924CC724ECD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ex1</RootNamespace>
-    <AssemblyName>ex1</AssemblyName>
+    <RootNamespace>ex3</RootNamespace>
+    <AssemblyName>ex3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dice.cs" />
+    <Compile Include="Fish.cs" />
+    <Compile Include="Fisherman.cs" />
+    <Compile Include="FishingSpot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
